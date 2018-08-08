@@ -3,7 +3,6 @@ def roll_call_dwarves(name_array)
 end
 
 def summon_captain_planet(calls)
-  loud_calls = []
   calls.map { |call| call.capitalize! }
 end
 
